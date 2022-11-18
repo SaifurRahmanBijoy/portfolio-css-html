@@ -13,11 +13,15 @@
 	justify-items: auto;
 	position: relative;
 }
+body{
+	margin: auto;
+	width: max-content;
+}
 
 nav{
 	display: flex;
 	align-items: center;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	padding-top: 40px;
 	padding-left: 8%;
 	padding-right: 8%;
@@ -115,6 +119,9 @@ h4{
 .about img{
 	height: auto;
 	width: 430px;
+	border-radius: 30%;
+	opacity: 70%;
+	margin-right: 10px;
 }
 .about-text{
 	width: 550px;
@@ -122,8 +129,8 @@ h4{
 	padding-right: 10px;
 }
 .main{
-	width: 1130px;
-	max-width: 95%;
+	width: 100vw;
+	max-width: 90%;
 	margin: 0 auto;
 	display: flex;
 	align-items: center;
